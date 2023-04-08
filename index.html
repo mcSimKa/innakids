@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Psychologist's Name</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <h1 class="display-4">Psychologist's Name</h1>
+    <p class="lead">Welcome to my private practice.</p>
+    <hr class="my-4">
+    <p>I offer individual and group therapy sessions for a variety of mental health concerns, including anxiety, depression, and relationship issues. I provide a safe and supportive environment for clients to explore their thoughts and feelings.</p>
+    <a class="btn btn-primary btn-lg" href="#services" role="button">Learn more</a>
+  </div>
+
+  <!-- About section -->
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>About Me</h2>
+          <p>I am a licensed psychologist with over 10 years of experience in the field. I obtained my Ph.D. in Clinical Psychology from XYZ University and completed my postdoctoral training at ABC Hospital. I am passionate about helping individuals achieve their goals and improve their overall quality of life.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://via.placeholder.com/400x400" alt="Psychologist's photo" class="img-fluid rounded-circle">
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Services section -->
+    <section id="services" class="py-5">
+        <div class="container">
+          <h2 class="text-center">Services</h2>
+          <hr>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Individual Therapy</h5>
+                  <p class="card-text">One-on-one sessions to address personal challenges and promote emotional wellbeing.</p>
+                  <a href="#contact" class="btn btn-primary">Schedule an appointment</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Couples Therapy</h5>
+                  <p class="card-text">Therapy sessions to address relationship issues and improve communication and intimacy.</p>
+                  <a href="#contact" class="btn btn-primary">Schedule an appointment</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Group Therapy</h5>
+                  <p class="card-text">Therapy sessions in a group setting to address common concerns and provide support and guidance.</p>
+                  <a href="#contact" class="btn btn-primary">Schedule an appointment</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+<!-- Contact section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center">Contact</h2>
+      <hr>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="nameInput">Name</label>
+              <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+              <label for="emailInput">Email address</label>
+              <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+              <label for="messageInput">Message</label>
+              <textarea class="form-control" id="messageInput" rows="5" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Contact Information</h5>
+              <p class="card-text">
+                123 Main St<br>
+                Anytown, USA 12345<br>
+                Phone: (555) 555-1234<br>
+                Email: info@psychologist.com
+              </p>
+              <p class="card-text"><small class="text-muted">Please note that this email is not for emergency situations. If you are in crisis, please call 911 or go to your nearest emergency room.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-3">
+    <div class="container">
+      <p class="m-0 text-center">Copyright © 2023
+        <a href="#">Your Website</a>
+      </p>
+    </div>
+  </footer>
+
+   <!-- Bootstrap JavaScript -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.min.js"></script>
+   <script>
+     // Enable Bootstrap tooltips
+     $(function () {
+       $('[data-toggle="tooltip"]').tooltip()
+     })
+   </script>
